@@ -1,0 +1,128 @@
+.BloqueGeneral {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+
+.Datosizq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #428FAD;
+    width: 200px;
+    height:780px;
+}
+
+.Foto {
+    width: 165px;
+    height: 165px;
+    border: solid thin black;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.Nombre {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.Lista {
+    list-style-type: disc; 
+    position: relative;
+    left: -20px;
+    font-size: 15px;
+}
+
+.Perfil {
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.info {
+    margin-top: 0;
+}
+
+.Habilidades {
+    font-weight: bold;
+    margin-left: 6px;
+    margin-bottom: 8px;
+    margin-top: 6px;
+}
+
+.ListaH {
+    list-style-type: disc; 
+    position: relative;
+    left: -20px;
+}
+
+
+.Formacion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Forma {
+    margin-left: 80px;
+    margin-bottom: 40px;
+    font-size: 27px;
+}
+
+.ListaEstudios {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.Desalineada {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.LiForm {
+    margin-bottom: 25px;
+    font-size: 20px;
+    list-style-position:inherit;
+    margin-left: -37px;
+}
+
+#LiForm {
+    font-size: 20px;
+    margin-left: -7px;
+    margin-bottom: 25px;
+}
+
+.ExpH1 {
+    margin-left: 80px;
+    margin-bottom: 40px;
+    font-size: 27px;
+}
+
+.ListaEXP {
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-position: outside;
+    margin-bottom: 45px;
+    margin-left: -110px;
+} 
+
+.LiEXP {
+    margin-left: 162px;
+    font-size: 20px;
+    text-align: start;
+}
+
+.OBJ {
+    margin-left: 80px;
+    font-size: 26px;
+}
+
+.pOBJ {
+    font-size: 20px;
+    margin-left: 65px;
+    text-align: justify;
+}
